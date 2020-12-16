@@ -17,7 +17,7 @@ class MyDocument extends Document {
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
           />
         </Head>
-        <body className="bg-gray-200">
+        <body>
           <Main />
           <NextScript />
         </body>

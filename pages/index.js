@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="mx:auto">
+      <div className="mx-auto">
         <Navigation />
       </div>
 

@@ -3,7 +3,7 @@ import Navigation from '@components/Navigation';
 
 export default function CardComponent() {
   return (
-    <>
+    <div className="bg-gray-200 h-screen">
       <div className="mx-auto">
         <Navigation />
       </div>
@@ -57,6 +57,6 @@ export default function CardComponent() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
