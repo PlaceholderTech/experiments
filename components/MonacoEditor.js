@@ -19,6 +19,7 @@ export default function MonacoEditor(props) {
         width={width}
         language={language}
         onChange={handleChange}
+        // theme="vs-dark"
       />
     </div>
   );

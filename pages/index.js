@@ -3,13 +3,15 @@ import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Navigation from '@components/Navigation';
 import Playground from '@components/Playground';
+import styles from '@styles/general.module.css';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Experiments | PlaceholderTech</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>
+          PlaceholderTech Play | Creative Playground For Modern Components
+        </title>
       </Head>
 
       <div className="mx-auto">
@@ -19,10 +21,10 @@ export default function Home() {
       <main>
         <div className="">
           <header className="flex flex-col justify-center items-center mb-52">
-            <h1 className="font-bold text-9xl mt-52 mb-4 text-blue-300">
+            <h1 className="font-bold sm:text-xl lg:text-9xl mt-52 mb-4 text-blue-300">
               PLAYGROUND
             </h1>
-            <p className="text-gray-500 text-lg">
+            <p className={`text-gray-500 font-bold text-lg ${styles.clipBg}`}>
               Components, Playground, Themes, and Layouts.
             </p>
             {/* <svg

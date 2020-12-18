@@ -1,4 +1,5 @@
 // import styles from './Footer.module.css'
+import Link from 'next/link';
 const Navigation = () => {
   return (
     <nav className="bg-gray-800">
@@ -46,39 +47,45 @@ const Navigation = () => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
-              <img
-                className="block lg:hidden h-8 w-auto"
-                src="/assets/images/logo-text-white.png"
-                alt="Workflow"
-              />
-              <img
-                className="hidden lg:block h-8 w-auto"
-                src="/assets/images/logo-text-white.png"
-                alt="Workflow"
-              />
+              <Link href="/">
+                <a>
+                  <img
+                    className="block lg:hidden h-8 w-auto"
+                    src="/assets/images/logo-text-white.png"
+                    alt="Workflow"
+                  />
+                  <img
+                    className="hidden lg:block h-8 w-auto"
+                    src="/assets/images/logo-text-white.png"
+                    alt="Workflow"
+                  />
+                </a>
+              </Link>
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
-                <a
-                  href="#"
-                  className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                <Link href="/playground">
+                  <a className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">
+                    LIVE EDITOR
+                  </a>
+                </Link>
+
+                <Link href="/ui/card-simple">
+                  <a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                    Components
+                  </a>
+                </Link>
+                <Link
+                  href="/landing/food-page
+                "
                 >
-                  Components
-                </a>
+                  <a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                    Layouts
+                  </a>
+                </Link>
+
                 <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Labs
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Projects
-                </a>
-                <a
-                  href="#"
+                  href="https://www.placeholdertech.in/contactus"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Contact
@@ -88,7 +95,7 @@ const Navigation = () => {
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <a
-              href="#"
+              href="https://github.com/placeholdertech"
               className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               GitHub
