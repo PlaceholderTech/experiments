@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -32,4 +32,11 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+} */
+
+.red {
+  background: red;
+}
+.bg-red {
+  color: red;
 }
