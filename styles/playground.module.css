@@ -40,3 +40,30 @@ code {
 .bg-red {
   color: red;
 }
+
+.pane {
+  /* background: rgb(219, 217, 217); */
+  border-left: 1px solid rgb(235, 232, 232);
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+.buttonsContainer {
+  margin: 0rem 0.2rem;
+  border-top: 1px solid rgb(224, 219, 219);
+  border-bottom: 1px solid rgb(224, 219, 219);
+  /* color: #000; */
+}
+
+.buttonCustom {
+  border: 2px solid #000;
+  margin: 1rem 0.2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+}
