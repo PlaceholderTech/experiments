@@ -12,10 +12,6 @@ class MyDocument extends Document {
         <Head>
           {/* <link rel="icon" href="/favicon.ico" /> */}
 
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-          />
           <meta charset="UTF-8" />
 
           <meta

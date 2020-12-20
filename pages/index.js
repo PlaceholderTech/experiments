@@ -20,11 +20,16 @@ export default function Home() {
 
       <main>
         <div className="">
-          <header className="flex flex-col justify-center items-center mb-52">
-            <h1 className="font-bold sm:text-xl lg:text-9xl mt-52 mb-4 text-blue-300">
-              PLAYGROUND
+          <header className="text-center flex flex-col justify-center items-center mb-52">
+            <h1
+              className={`font-bold sm:text-xl lg:text-7xl mt-52 mb-4 text-black-300`}
+            >
+              Welcome to PlaceholderTech
+              <span className={`sm:text-xl lg:text-7xl block ${styles.clipBg}`}>
+                PLAYGROUND
+              </span>
             </h1>
-            <p className={`text-gray-500 font-bold text-lg ${styles.clipBg}`}>
+            <p className={`text-gray-500 text-lg`}>
               Components, Playground, Themes, and Layouts.
             </p>
             {/* <svg
